@@ -20,4 +20,9 @@ contract DIDCouncil {
         msg.sender.transfer(_value);
         return true;
     }
+
+    //
+    function issueCredencial(string content) public return (bool) {
+
+    }
 }
